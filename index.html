@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Anmälan</title>
 </head>
+
 <form action="action_page.php"> </form>
  <div class="container">
     <h1>Registrera</h1>
@@ -21,7 +22,7 @@
     <hr>
 
     <label id="labelEmail" for="email"><b>Din email</b></label>
-    <input type="text" placeholder="Emailadress" name="email" id="email" required>
+    <input type="text" placeholder="Emailadress@exempel.com" name="email" id="email" required>
     <hr>
 
     <label id="labelNumber"  for="number"><b>Telefonnummer</b></label>
@@ -31,6 +32,33 @@
     <button type="submit" class="registerbtn">Registrera</button>
 
 
+    <!-- Script needs quick changes -->
+<!--
+    <script>
+        // Function to change label color to green when input is filled
+        function checkInput(inputId, labelId) {
+            const input = document.getElementById(inputId);
+            const label = document.getElementById(labelId);
+            
+            input.addEventListener('input', function () {
+                if (input.value.trim() !== '') {
+                    label.style.backgroundColor = 'lightgreen';
+                } else {
+                    label.style.backgroundColor = '';
+                }
+            });
+        }
+    
+        // Check each input
+        checkInput('namn', 'labelNamn');
+        checkInput('parent', 'labelParent');
+        checkInput('email', 'labelEmail');
+        checkInput('number', 'labelNumber');
+    </script>
+
+    -->
+
+    
 
 
  </div>
