@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Anmälan</title>
 </head>
 <form action="action_page.php"> </form>
  <div class="container">
     <h1>Registrera</h1>
-    <p>Var god och fyll i formuläret för anmälning</p>
+    <p>Var god och fyll i formuläret för anmälning till oktobers turnering i brottning</p>
     <hr>
 
-    <label for="namn"><b>Namn</b></label>
-    <input type="text" placeholder="Ange namn" name="namn" id="namn" required>
+    <label id="labelNamn" for="namn"><b>Namn</b></label>
+    <input type="text" placeholder="Ange deltagarens namn" name="namn" id="namn" required>
     <hr>
 
-    <label for="parent"><b>Namn på förälder</b></label>
+    <label id="labelParent" for="parent"><b>Namn på förälder</b></label>
     <input type="text" placeholder="Förälderns namn" name="parent" id="parent" required>
     <hr>
 
-    <label for="email"><b>din email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <label id="labelEmail" for="email"><b>din email</b></label>
+    <input type="text" placeholder="Emailadress" name="email" id="email" required>
     <hr>
 
-    <label for="number"><b>Telefonnummer</b></label>
+    <label id="labelNumber"  for="number"><b>Telefonnummer</b></label>
     <input type="number" placeholder="Ange telefonnummer" name="number" id="number" required>
     <hr>
 
     <button type="submit" class="registerbtn">Registrera</button>
+
+
+
 
  </div>
 <body>

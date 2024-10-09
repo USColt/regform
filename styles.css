@@ -1,44 +1,71 @@
-* {box-sizing: border-box}
-
-/* Add padding to containers */
-.container {
-  padding: 16px;
-}
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Overwrite default styles of hr */
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for the submit/register button */
-.registerbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-.registerbtn:hover {
-  opacity:1;
-}
-
+* {
+    box-sizing: border-box;
+  }
+  
+  /* General page styling for a gray background and white text */
+  body {
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    background-color: #444; /* Slightly lighter gray for the container background */
+    padding: 16px;
+    border-radius: 5px; /* Rounded corners for the container */
+    max-width: 600px; /* Limit form width */
+    margin: 20px auto; /* Center the container */
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password], input[type=email], input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #555; /* Dark gray background for inputs */
+    color: #fff; /* White text for inputs */
+  }
+  
+  input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=number]:focus {
+    background-color: #666; /* Slightly lighter background when focused */
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Labels styling with white text */
+  label {
+    color: #fff; /* White text for labels */
+  }
+  
+  /* Set a style for the submit/register button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px; /* Rounded corners for the button */
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Optional: Center the heading text */
+  h1 {
+    text-align: center;
+    color: #fff; /* White text for headings */
+  }
